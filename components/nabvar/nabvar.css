@@ -1,0 +1,45 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px;
+  background-color: var(--primary-color);
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+header.scrolled {
+  box-shadow: 0 2px 5px var(--navbar-color-text);
+}
+
+img {
+  height: 150px;
+  width: auto;
+}
+.navbar-brand {
+  font-size: 80px;
+  color: var(--navbar-color-text);
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: var(--font-size-large);
+}
+
+.navbar-menu li a {
+  color: var(--navbar-color-text);
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
